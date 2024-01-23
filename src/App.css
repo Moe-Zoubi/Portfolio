@@ -22,7 +22,7 @@ a{
 }
 
 a:hover{
-  color: #147efb;
+  color: #005B9A;
 }
 
 @media screen and (max-width:600px){
@@ -105,4 +105,75 @@ a:hover{
 
 .mobile-links a{
   color: white;
+}
+
+/* home page */
+.homepage{
+  color: white;
+}
+
+.intro{
+  background: url(./images/portfolio-bg.png) center/cover no-repeat;
+  height: 90vh;
+  margin-top: 10rem;
+  padding-left: 15%;
+}
+.intro h1,
+.intro p{
+  width: 50%;
+}
+.intro h1{
+  padding-top: 10%;
+  font-size: 7rem;
+  margin-bottom: 2rem;
+}
+
+.intro p{
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.socials-links{
+  display: flex;
+  gap: 2rem;
+}
+
+.socials-links li{
+  width: 40px;
+}
+
+.socials-links li img{
+  width: 100%;
+}
+
+.tech-stack{
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.tech-stack h3{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  width: max-content;
+  font-size: 2.5rem;
+}
+
+.tech-items{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.tech-items .item{
+  display: flex;
+  gap: 0;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.tech-items .item:hover{
+  transform: translateY(-10px)
 }
