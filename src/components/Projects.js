@@ -91,7 +91,7 @@ function Projects(){
                     <div className="project-description">
                         <h4>E-commerce Website</h4>
                         <p>
-                            This brand prioritises the user experience, making 
+                            This brand prioritizes the user experience, making 
                             it simple for customers to find and buy the things 
                             they need with an emphasis on simplicity and clean design.
                         </p>
@@ -102,7 +102,7 @@ function Projects(){
                             </li>
                             <li className="tech-item">
                                 <li><a href="https://github.com/Moe-Zoubi/Ecommerce-shop">Code <FontAwesomeIcon icon={faLink} /></a></li>
-                                <li><a href="https://658c05e57e948f545fd02ec7--lucent-starship-f0768d.netlify.app/">Live Demo <FontAwesomeIcon icon={faLink} /></a></li>
+                                <li><a href="https://65b1868747b8fa52c113b9a2--glittering-sable-c91beb.netlify.app/">Live Demo <FontAwesomeIcon icon={faLink} /></a></li>
                             </li>
                         </ul>
                     </div>
