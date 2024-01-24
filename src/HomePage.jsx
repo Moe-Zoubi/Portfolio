@@ -8,12 +8,14 @@ import bootstrapIcon from "./images/tech-stack/bootstrap.png";
 import firebaseIcon from "./images/tech-stack/firebase-icon.png";
 import cssIcon from "./images/tech-stack/css-icon.png";
 import htmlIcon from "./images/tech-stack/html-icon.png";
+import About from "./components/About";
+
 
 const HomePage = () => {
 
     return(
-        <div className="homepage">
-            <div className="intro" id="home">
+        <div className="homepage" id="home">
+            <div className="intro" >
                 <h1>Front-End React Developer</h1>
                 <p>Hi, I'm Moe. A passionate Front-end React Developer based in LA, California. <FontAwesomeIcon icon={faMapPin} style={{color: "red"}} /></p>
                 <ul className="socials-links">
@@ -36,9 +38,9 @@ const HomePage = () => {
                             <li><img src={reactIcon} alt="react icon" /></li>
                         </li>
                     </ul>
-
                 </div>
             </div>
+            <About />
         </div>
     )
 }
