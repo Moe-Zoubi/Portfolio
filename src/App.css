@@ -25,6 +25,10 @@ a:hover{
   color: #005B9A;
 }
 
+@media screen and (max-width:450px){
+  
+}
+
 @media screen and (max-width:600px){
   .toggle-links{
     display: contents !important;
@@ -251,4 +255,54 @@ a:hover{
 .about-me p{
   font-size: 1.8rem;
   color: rgb(237, 237, 237);
+}
+
+/*contact*/
+.contact-section{
+  background-color: rgb(18, 18, 18);
+  padding: 3rem 15%;
+}
+
+.contact-section h4{
+  font-size: 2.5rem;
+  color: #005B9A;
+}
+
+.contact-section h3{
+  font-size: 3rem;
+}
+
+.contact-info{
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.contact-info li{
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.info-icon{
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 1rem;
+}
+
+.info-item p:nth-child(1){
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.info-item p:nth-child(2){
+  margin-top: 0;
+  color: rgb(186, 186, 186);
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.info-item p:nth-child(2):hover{
+  color: #005B9A;
 }

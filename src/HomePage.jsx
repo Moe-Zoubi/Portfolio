@@ -1,3 +1,4 @@
+import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faMapPin } from "@fortawesome/free-solid-svg-icons";
 import github from "./images/socials/github.png";
@@ -9,7 +10,7 @@ import firebaseIcon from "./images/tech-stack/firebase-icon.png";
 import cssIcon from "./images/tech-stack/css-icon.png";
 import htmlIcon from "./images/tech-stack/html-icon.png";
 import About from "./components/About";
-
+import Contact from "./components/Contact";
 
 const HomePage = () => {
 
@@ -41,6 +42,7 @@ const HomePage = () => {
                 </div>
             </div>
             <About />
+            <Contact />
         </div>
     )
 }
