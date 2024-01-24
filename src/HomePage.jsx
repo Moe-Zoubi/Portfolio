@@ -11,6 +11,7 @@ import cssIcon from "./images/tech-stack/css-icon.png";
 import htmlIcon from "./images/tech-stack/html-icon.png";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 
 const HomePage = () => {
 
@@ -42,6 +43,7 @@ const HomePage = () => {
                 </div>
             </div>
             <About />
+            <Projects />
             <Contact />
         </div>
     )

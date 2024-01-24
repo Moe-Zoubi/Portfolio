@@ -17,9 +17,9 @@ function About() {
                 </div>
                 <div className="about-me">
                     <h4>ABOUT ME</h4>
-                    <h3>Front-end React Developer based in LA, California. <FontAwesomeIcon icon={faMapPin} style={{color: "red"}} /></h3>
+                    <h3>Front-end React Developer based in LA, California. <FontAwesomeIcon icon={faMapPin} style={{color: "#005B9A"}} /></h3>
                     <p>
-                        Hello, I'm Muhammad. I have a strong academic background and graduated with a second upper division GPA
+                        Hello, I'm Mohammad. I have a strong academic background and graduated with a second upper division GPA
                         in computer science. Making an intuitive user interface and user experience for my users is my passion.
                     </p>
                     <p>
