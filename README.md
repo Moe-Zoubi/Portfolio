@@ -6,7 +6,7 @@ Live Demo: [Visit My Portfolio](http://www.yourportfolio.com)
 
 ### Built With:
 * React JS
-* Vanilla CSs
+* Vanilla CSS
 
 ### Screenshots:
 ![Portfolio Page](./src/images/readme/portfolio-ss.png)
