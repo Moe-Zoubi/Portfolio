@@ -27,17 +27,59 @@ a:hover{
 }
 
 @media screen and (max-width:450px){
-  
+  /*intro*/
+  .tech-stack{
+    margin-top: 3rem !important;
+    gap: 1rem !important;
+  }
 }
 
 @media screen and (max-width:600px){
+  /*navbar*/
   .toggle-links{
     display: contents !important;
   }
   .links-container{
     display: none !important;
   }
+
+  /*contact*/
+  .contact-info{
+    flex-direction: column;
+    margin-left: -10rem;
+    padding-left: 0;
+  }
 }
+
+@media screen and (max-width:800px){
+  /*intro*/
+  .intro{
+    height: auto !important;
+    padding-bottom: 5rem;
+  }
+
+  /*about section*/
+  .about-container{
+    flex-direction: column;
+  }
+
+  .img-text{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1100px){
+  /* projects */
+  .project{
+    flex-direction: column;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid black;
+  }
+  .project-img, .project-description{
+    width: 100% !important;
+  }
+}
+
 
 /*navbar*/
 .navbar{
@@ -117,26 +159,35 @@ a:hover{
 .homepage{
   color: white;
 }
-
 .intro{
   background: url(./images/portfolio-bg.png) center/cover no-repeat;
   height: 90vh;
   margin-top: 10rem;
-  padding-left: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.intro h1,
-.intro p{
-  width: 50%;
-}
-.intro h1{
-  padding-top: 10%;
+
+.intro h1 {
+  width: 100% !important;
+  margin-bottom: 1rem;
+  text-align: center;
   font-size: 7rem;
-  margin-bottom: 2rem;
 }
 
 .intro p{
-  margin-top: 0;
+  width: 50% !important;
+  margin: 3rem auto;
   font-size: 3rem;
+  text-align: center;
+}
+
+.socials-links{
+  justify-content: center;
+}
+.tech-stack{
+  justify-content: center;
 }
 
 .socials-links{
@@ -156,6 +207,7 @@ a:hover{
   margin-top: 10rem;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 5rem;
 }
 
@@ -170,6 +222,8 @@ a:hover{
 .tech-items{
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 4rem;
 }
 
