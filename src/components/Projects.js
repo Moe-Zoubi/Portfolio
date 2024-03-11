@@ -56,7 +56,7 @@ function Projects(){
                             </li>
                             <li className="tech-item">
                                 <li><a href="https://github.com/Moe-Zoubi/Gym-Pulse">Code <FontAwesomeIcon icon={faLink} /></a></li>
-                                <li><a href="https://65ae1b8df5229efbd7ff5b86--shiny-madeleine-0755c1.netlify.app/">Live Demo <FontAwesomeIcon icon={faLink} /></a></li>
+                                <li><a href="https://gym-pulse.netlify.app/">Live Demo <FontAwesomeIcon icon={faLink} /></a></li>
                             </li>
                         </ul>
                     </div>
@@ -82,7 +82,7 @@ function Projects(){
                             </li>
                             <li className="tech-item">
                                 <li><a href="https://github.com/Moe-Zoubi/Car-rental">Code <FontAwesomeIcon icon={faLink} /></a></li>
-                                <li><a href="https://658e6d414abcd67ddfff6e34--timely-sfogliatella-292443.netlify.app/">Live Demo <FontAwesomeIcon icon={faLink} /></a></li>
+                                <li><a href="https://moe-car-rental.netlify.app/">Live Demo <FontAwesomeIcon icon={faLink} /></a></li>
                             </li>
                         </ul>
                     </div>
@@ -102,7 +102,7 @@ function Projects(){
                             </li>
                             <li className="tech-item">
                                 <li><a href="https://github.com/Moe-Zoubi/Ecommerce-shop">Code <FontAwesomeIcon icon={faLink} /></a></li>
-                                <li><a href="https://65b1868747b8fa52c113b9a2--glittering-sable-c91beb.netlify.app/">Live Demo <FontAwesomeIcon icon={faLink} /></a></li>
+                                <li><a href="https://moe-ecommerce.netlify.app/">Live Demo <FontAwesomeIcon icon={faLink} /></a></li>
                             </li>
                         </ul>
                     </div>
