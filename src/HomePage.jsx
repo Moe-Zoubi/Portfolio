@@ -18,7 +18,7 @@ const HomePage = () => {
     return(
         <div className="homepage" id="home">
             <div className="intro" >
-                <h1>Front-End React Developer</h1>
+                <h1>Full-Stack React Developer</h1>
                 <p>Hi, I'm Moe. A passionate Front-end React Developer based in LA, California. <FontAwesomeIcon icon={faMapPin} style={{color: "red"}} /></p>
                 <ul className="socials-links">
                     <li><a href="https://www.linkedin.com/in/mohammad-zoubi-21a555224/"><img src={linkedIn} alt="linkedIn icon" /></a></li>
